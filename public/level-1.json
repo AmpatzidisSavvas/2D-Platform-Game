@@ -209,7 +209,7 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":103.333333333333,
+                 "x":98.9696969696966,
                  "y":192
                 }, 
                 {
@@ -221,7 +221,7 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":247,
+                 "x":243.181818181818,
                  "y":192.666666666667
                 }, 
                 {
@@ -233,8 +233,8 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":424,
-                 "y":156.25
+                 "x":411,
+                 "y":120.25
                 }, 
                 {
                  "height":0,
@@ -245,8 +245,8 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":416.5,
-                 "y":190.75
+                 "x":407,
+                 "y":160.75
                 }, 
                 {
                  "height":0,
@@ -257,8 +257,20 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":159.5,
-                 "y":254.5
+                 "x":180.227272727273,
+                 "y":255.409090909091
+                }, 
+                {
+                 "height":0,
+                 "id":28,
+                 "name":"flame",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":338.909090909091,
+                 "y":191.454545454545
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -267,7 +279,7 @@
          "y":0
         }],
  "nextlayerid":6,
- "nextobjectid":28,
+ "nextobjectid":29,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.11.0",
