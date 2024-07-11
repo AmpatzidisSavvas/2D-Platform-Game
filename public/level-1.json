@@ -186,7 +186,7 @@
         {
          "draworder":"topdown",
          "id":5,
-         "name":"spawnPoints",
+         "name":"spawnpoints",
          "objects":[
                 {
                  "height":0,
