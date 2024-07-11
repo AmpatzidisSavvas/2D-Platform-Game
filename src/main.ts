@@ -54,7 +54,8 @@ function showInfoPopup() {
     k.go("level-1");
   });
 }
-  
+
+
   
 
 async function gameSetup() {
@@ -143,7 +144,7 @@ async function gameSetup() {
 
   k.scene("level-2", () => {
     globalGameState.setCurrentScene("level-2");
-    globalGameState.setNextScene("level-1");
+    globalGameState.setNextScene("end");
     k.setGravity(2100);
     k.add([
       k.rect(k.width(), k.height()),
@@ -189,7 +190,28 @@ async function gameSetup() {
 
   k.scene("end", () => {
     
-  });
+    const bg = k.add([
+        k.rect(k.width(), k.height()), 
+        k.color(0, 0, 0),  
+        
+    ]);
+
+    // Display "You Win" text
+    const text = k.add([
+        k.text("You Win", { size: 24 }),
+        k.pos(k.width() / 2, k.height() / 2), 
+        { origin: "center" },
+        
+    ]);
+    
+    const cleanup = () => {
+        bg.destroy();  
+        text.destroy();  
+    };
+
+    k.wait(3, cleanup);  
+});
+
 
   k.go("info");
 }

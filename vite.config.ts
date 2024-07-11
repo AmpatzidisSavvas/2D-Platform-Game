@@ -2,7 +2,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-    base: "./",
+    base: "./2D-Platform-Game/",
     build: {
         minify: false,
     }
